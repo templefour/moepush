@@ -14,8 +14,8 @@ jobs:
       # 1. 更新 actions/checkout 从 v4 到 v6
       - uses: actions/checkout@v6
 
-      # 2. 更新 pnpm/action-setup 从 v2 到 v4
-      - uses: pnpm/action-setup@v4
+      # 2. 更新 pnpm/action-setup 从 v4 到 v6
+      - uses: pnpm/action-setup@v6
         with:
           version: 9
 
